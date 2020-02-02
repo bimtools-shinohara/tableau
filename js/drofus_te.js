@@ -11,8 +11,10 @@
     myConnector.init = function(initCallback) {
 
         tableau.authType = tableau.authTypeEnum.basic;
-        initCallback();          
-
+        initCallback();
+        tableau.username = btoa("te_building/01/ayam/en");
+        tableau.password = btoa("s540918A");
+        
     };
 
     // Define the schema
